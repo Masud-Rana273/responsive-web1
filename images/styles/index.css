@@ -1,0 +1,262 @@
+/* ------- body style ------- */
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ----- header nav styles ----- */
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-nav {
+    
+}
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header-top-title {
+    color: #131313;
+    font-size: 35px;
+}
+.nav-detiles {
+    display: flex;
+    gap: 20px;
+}
+.header-info a {
+    color: #424242;
+    text-decoration: none;
+}
+/* ------- title section style ------- */
+
+.section-one-title {
+    margin-top: -20px;
+}
+.section-title {
+    text-align: center;
+    color: #131313;
+    font-size: 40px;
+}
+.section-text {
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.section-one-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section-button {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 140px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background: #FF900E;
+}
+#section-one-button{
+    margin-right: 125px;
+}
+
+/* --------- banner style --------- */
+
+.header-banner-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.banner img {
+    width: 900px;
+    border-radius: 5px;
+}
+
+/* -------- main style -------- */
+
+/* ------- midle section one style ------- */
+
+.midle-section-one {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.midle-section {
+    display: flex;
+    justify-content: space-around;
+}
+.midle-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.midle-banner img {
+    width: 200px;
+}
+.midle-section-details{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.light-gry{
+    color: #727272;
+}
+.black{
+    color: #131313;
+}
+.cyne{
+    color: #FF900E;
+}
+.midle-info{
+    font-size: 12px;
+    color: #727272;
+}
+
+/* ------- midle section tow style ------- */
+
+.midle-section-tow{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.section-tow{
+    
+}
+.section-tow-title{
+    color: #131313;
+}
+.title-border{
+    border-left: 3px solid coral;
+    padding-left: 10px;
+}
+.section-tow-detiles{
+    color: #727272;
+    font-size: 12px;
+}
+.section-tow-div1{
+   margin-top: 28px;
+}
+.section-tow-div-title{
+    font-size: 14px;
+    color: #131313;
+}
+.section-tow-image img {
+    width: 400px;
+}
+.section-tow-button{
+    width: 160px;
+    height: 80px;
+    background: #FF900E;
+    border-radius: 6px;
+}
+.section-tow-button-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 16px;
+}
+.section-tow-button-info{
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: -100px;
+}
+
+/* -------- midle section three style -------- */
+
+.section-three{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.section-three-title{
+    color: #131313;
+    font-size: 24px;
+}
+.section-three-icon{
+    margin-top: 50px;
+}
+.section-three-image-box > div img{
+    width: 30px;
+}
+.section-three-image-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-three-number{
+    color: #424242;
+    font-weight: 600;
+    font-size: 25px;
+}
+.section-three-info{
+    color: #727272;
+    font-weight: 600;
+    font-size: 14px;
+}
+.section-three-icon-border{
+    text-align: center;
+    gap: 0;
+    width: 100px;
+    height: 120px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 20px;
+}
+.section-three-icon-border:hover {
+    background-color: powderblue;
+    color: green;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* --------- midle section four style --------- */
+
+.section-four{
+    margin-top: 70px;
+}
+.section-four-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+}
+.section-four-detailes{
+    font-size: 12px;
+    color: #727272;
+    text-align: center;
+}
+.section-four-icon-box{
+    
+}
+.icon-box-width{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.icon-box-width > div img{
+    width: 80px;
+}
+
+/* -------- footer section style -------- */
+
+.footer-container{
+    width: 900px;
+    height: 80px;
+    margin-left: 50px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-detailes{
+    text-align: center;
+    font-size: 14px;
+    padding: 25px;
+    font-weight: 400;
+    color: #424242;
+}
